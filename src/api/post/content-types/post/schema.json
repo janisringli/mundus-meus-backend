@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "tests",
+  "collectionName": "posts",
   "info": {
-    "singularName": "test",
-    "pluralName": "tests",
-    "displayName": "Post",
-    "description": ""
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "Posts"
   },
   "options": {
     "draftAndPublish": true
@@ -15,8 +14,8 @@
     "postDescription": {
       "type": "richtext"
     },
-    "postDate": {
-      "type": "datetime"
+    "postTitle": {
+      "type": "string"
     },
     "postImage": {
       "allowedTypes": [
